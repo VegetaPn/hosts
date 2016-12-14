@@ -1,7 +1,7 @@
 #!/usr/bin/expect
 
 
-spawn sudo cp ./hosts /etc/hosts.new
+spawn sudo cp ./hosts /etc/hosts
 expect "Password:"
 send "yourpassword\r"
 
